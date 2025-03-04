@@ -15,7 +15,7 @@
 # installation
  **1. Clone the Repository**:
    ```
- git clone https://github.com/COltNovak/manage.git && cd manage
+ git clone https://github.com/ColtNovak/manage.git && cd manage
 ````
  **2. Compile project**
   ```
