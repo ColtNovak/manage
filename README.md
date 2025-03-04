@@ -25,7 +25,15 @@
 ```
 sudo mv manage /usr/local/bin
 ```
-
+## USAGE
+To make a new password type:
+```
+manage new <SITE NAME>
+```
+To find and retreive an existing password type:
+```
+manage <SITE NAME>
+```
 ### TODO LIST
 - encryption of some kind
 - password generator
