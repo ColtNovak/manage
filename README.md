@@ -13,28 +13,11 @@
 
 
 # installation
- **1. Clone the Repository**:
-   ```
- git clone https://github.com/ColtNovak/manage.git && cd manage
-````
- **2. Compile project**
-  ```
-  rustc manage.rs
-  ```
-**3. install binary**
 ```
-sudo mv manage /usr/local/bin
+cd RustCalc
+cargo build --release
+
+mv target/release/rmath ~/.local/bin
+export PATH="$HOME/.local/bin:$PATH"
 ```
-## USAGE
-To make a new password type:
-```
-manage new <SITE NAME>
-```
-To find and retreive an existing password type:
-```
-manage <SITE NAME>
-```
-### TODO LIST
-- encryption of some kind
-- password generator
-- strength checker
+now restart your terminal
